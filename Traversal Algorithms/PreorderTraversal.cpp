@@ -18,7 +18,7 @@ class Solution {
     public:
   		Node* insert(Node* root, int data) {       //Insertion Code
             if(root == NULL) {
-                return new Node(data);
+                return new Node(data);      // Insert the first node, if root is NULL. 
             } else {
                 Node* cur;
                 if(data <= root->data) {
